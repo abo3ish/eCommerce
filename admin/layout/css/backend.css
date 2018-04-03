@@ -1,0 +1,392 @@
+/* start main style  */
+
+body {
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+/* end main style  */
+
+
+/* start index.php form style  */
+
+h1 {
+    color: #555;
+    margin-bottom: 35px;
+    font-size: 55px;
+}
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .log .btn {
+    margin-bottom: 20x;
+}
+
+.login a {
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.login .form-control {
+    background-color: #EAEAEA;
+}
+
+.login-alert {
+    position: absolute;
+    top: 330px;
+    left: 505px;
+}
+
+.asterisk {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: #d13737;
+    font-size: 25px
+}
+
+form .alert {
+    display: none;
+}
+
+
+/* end index.php form style  */
+
+
+/* start bootstrap edit */
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background: #3498db;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    background: #3498db;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    min-width: 175px;
+}
+
+.dropdown-menu>li {
+    margin-top: 0;
+}
+
+.dropdown-menu>li:hover a {
+    padding-left: 15px;
+    -webkit-transition: padding .5s ease-in-out;
+    -mox-transition: padding .5s ease-in-out;
+    -o-transition: padding .5s ease-in-out;
+    transition: padding .5s ease-in-out;
+}
+
+.dropdown-menu>li>a {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background: #fff;
+}
+
+.form-control {
+    position: relative;
+}
+
+
+/* end bootstrap edit */
+
+
+/* start add page */
+
+.show-pass {
+    position: absolute;
+    top: 6px;
+    right: -30px;
+}
+
+
+/* end add page */
+
+
+/* start edit page */
+
+.editprofile h1 {
+    margin-bottom: 45px;
+    margin-top: 30px;
+}
+
+
+/* end edit page */
+
+
+/*start add members page */
+
+.main-table {
+    background-color: #fff;
+    box-shadow: 0 3px 15px #ccc;
+}
+
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #fff;
+}
+
+
+.main-table .btn {
+    float: left;
+    margin-left: 20px;
+
+}
+
+
+/* end add members page */
+
+
+/* start dashboard */
+
+.home-stats {
+    margin-bottom: 25px;
+}
+
+.home-stats .stat {
+    padding: 15px;
+    border-radius: 10px;
+    padding-top: 2px;
+    margin-top: 20px;
+    position: relative;
+}
+.home-stats .stat i{
+    font-size: 60px;
+    color:#fff;
+    position: absolute;
+    left:15px;
+    top:35px;
+}
+.home-stats .stat .info {
+    margin-left:55px;
+}
+.home-stats .stat .info h2 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.home-stats .stat .info span a {
+    font-size: 50px;
+    color: #fff;
+}
+
+.home-stats .stat .info span a:hover {
+    text-decoration: none;
+}
+
+.home-stats .members {
+    background-color: #3498db;
+}
+
+.home-stats .pending {
+    background-color: #c0392b;
+}
+
+.home-stats .items {
+    background-color: #8e44ad;
+}
+
+.home-stats .comments {
+    background-color: #95a5a6;
+}
+
+.users-list {
+    margin: 5px 5px;
+}
+
+.users-list li {
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.users-list li:nth-child(odd) {
+    background-color: #eee;
+    border-radius: 7px;
+}
+
+.users-list .btn {
+    margin-right: 3px;
+    padding: 6px;
+    margin-top: -6px;
+}
+.panel-default .panel-heading .toggle{
+    cursor: pointer;
+    opacity: .5;
+}
+.panel-default .panel-heading .toggle:hover{
+    opacity: 1
+}
+.comment-box {
+    overflow: hidden;
+    padding: 10px;
+
+}
+.panel-body .member-n{
+    display: inline-block;
+    margin-top:10px;
+    margin-left: 20px;
+}
+.panel-body .member-c {
+    float: right;
+    width: 350px;
+    background-color: #eee;
+    padding: 9px;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 30px;
+}
+.panel-body .member-c:before{
+      content: "";
+      position: absolute;
+      top: 7px;
+      left: -26px;
+      display: block;
+      height: 0;
+      width: 0;
+      border-style: solid;
+      border-color: transparent #EEE transparent transparent;
+      border-width: 13px;
+}
+/* end dashboard */
+
+/* start categories */
+.cats{
+    position: relative;
+    overflow: hidden;
+    padding:25px;  
+}
+.cats h3{
+    display: inline-block;
+}
+.cats .subcats{
+    display: inline-block;
+}
+.cats .subcats li{
+    margin-left: 20px;
+}
+.panel-heading{
+    position: relative;
+    overflow: hidden;
+}
+.panel-heading span:first-child{
+    font-size: 19px;
+    color:#222222;
+}
+.panel-heading span:first-child i{
+    position: relative;
+    top:1px;
+}
+.panel-body{
+    padding:0;
+}
+.panel-body hr{
+    margin:0;
+}
+.panel-body h3{
+    color:#2a2a2a;
+}
+.panel-body h4{
+    color:#5c5c5ce6;
+}
+.ordering {
+    color:#5c5c5ce6;
+}
+.ordering span{
+    cursor: pointer;
+}
+.ordering a{
+    margin-right:3px;
+    color:#555555;
+}
+.ordering a:hover{
+    text-decoration: none;
+}
+.ordering .active{
+    color:#337AB7;
+    text-decoration: underline;
+}
+.cats h3 , 
+.cats h4{
+    margin:0;
+}
+.cats h4{
+    margin: 15px 0;
+}
+.cats .visibility{
+    background-color: #c0392b;
+    color:#fff;
+    padding:5px 7px;
+    margin-right:7px;
+    border-radius: 7px;
+}
+.cats .commenting{
+    background-color: #34495e;
+    color:#fff;
+    padding:5px 7px;
+    margin-right:7px;
+    border-radius: 7px;
+}
+.cats .ads{
+    background-color: #e67e22;
+    color:#fff;
+    padding:5px 7px;
+    margin-right:7px;
+    border-radius: 7px;
+    margin-top:9px;
+}
+.cats:last-of-type ~ hr{
+    display: none;
+}
+.cats .hidden-buttons{
+    position: absolute;
+    top:20px;
+    right:-133px;
+}
+.cats .hidden-buttons a{
+    margin-right:4px;
+    padding:6px 10px;
+    border:none;
+}
+.cats:hover .hidden-buttons{
+    transition: all .5s ease-in-out;
+    right:20px;
+}
+.cats:hover {
+    background-color: #ecf0f1;
+}
+.add{
+    margin-bottom: 30px;
+}
+/* end categories */
+
+/* start comments */
+.edit-comment textarea{
+    min-height:160px;
+}
+
+.comments tr td{
+    max-width: 400px;
+}
+
+/* end comments */

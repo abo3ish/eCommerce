@@ -1,0 +1,250 @@
+/* start main style  */
+
+body {
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+h1 {
+    color: #555;
+    margin-bottom: 35px;
+    font-size: 55px;
+}
+.asterisk {
+    position: absolute;
+    top: 4px;
+    right: 11px;
+    color: #b58989;
+    font-size: 25px;
+}
+.show-pass {
+    position: absolute;
+    top: 6px;
+    right: -30px;
+}
+.login-bar{
+    height:30px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.login-bar .dropdown-menu{
+    background-color:#3498db;
+}
+/* end main style  */
+
+/* start bootstrap edit */
+.login-bar{
+    height:40px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.login-bar img{
+    width:35px;
+    height: 35px;
+    margin-top:3px;
+}
+.login-bar .pull-right{
+    line-height: 40px;
+}
+.navbar {
+    border-radius: 0;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background: #3498db;
+}
+.navbar-nav>li>.dropdown-menu {
+    background: #3498db;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    min-width: 175px;
+}
+.dropdown-menu>li {
+    margin-top: 0;
+}
+.dropdown-menu>li:hover a {
+    padding-left: 15px;
+    -webkit-transition: padding .5s ease-in-out;
+    -mox-transition: padding .5s ease-in-out;
+    -o-transition: padding .5s ease-in-out;
+    transition: padding .5s ease-in-out;
+}
+.dropdown-menu>li>a {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 10px;
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background: #fff;
+}
+.form-control {
+    position: relative;
+}
+/* end bootstrap edit */
+
+/* start login */ 
+.sign-form h1 span{
+    cursor: pointer;
+}
+.sign-form .active{
+    color:#337ab7;
+}
+.sign-form form{
+    width: 350px;
+    margin: auto;
+}
+.sign-form form input{
+    margin-top:10px;
+}
+.sign-form .group{
+    position: relative;
+}
+.sign-form .signup{
+    display: none
+}
+.msg{
+    width: 350px;
+    margin: auto;
+    background-color: #e4dfdf;
+    color: #ad5b5b;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 5px 15px;
+    border-left: 3px solid #f00;
+    display: block;
+}
+/* end login */ 
+
+/* start categories */ 
+.item-box{
+    padding-top: 30px;
+    position: relative;
+    height: 350px;
+}
+.item-box .price{
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    background: #c0c0c0;
+    color: #337ab7;
+    padding: 3px 10px;
+    font-weight: bold;
+}
+.item-box .date{
+    float: right;
+    color:#bbb;
+    font-size: 15px;
+    font-weight: bold
+}
+/* end categories */ 
+
+/* start profile  */
+.info .panel-heading a{
+    color:#fff;
+}
+
+.info .panel-body li{
+    padding: 15px;
+    display: inline-block;
+}
+.info .panel-body li span{
+    display: inline-block;
+    color:#22222;
+}
+.item-box .approve-status{
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    background: #F45252;
+    color: #fff;
+    padding: 3px 10px;
+    font-weight: bold;
+}
+/* end profile */  
+
+/* start newAd */
+.newAd .asterisk{
+
+    position: absolute;
+    top: 9px;
+    right: 23px;
+    color: #b58989;
+    font-size: 25px;
+}
+}
+/* end newAd */  
+
+/* start items info */ 
+.item-info h3{
+    margin:0;
+}
+.item-info p{
+    padding:10px;
+}
+ .item-info ul{
+
+    margin-top:20px;
+ }  
+ .item-info ul li{
+    padding:10px 5px;
+ }
+ .item-info ul li span{
+    display: inline-block;
+    width: 130px;
+    font-weight: bold;
+    margin-left:7px;
+ }
+ .item-info ul li:nth-child(odd){
+    background-color: #E7E7E7;
+
+ } 
+ .custom-hr{
+    border-top: 1px solid #999;
+ }
+/* end items */ 
+
+/* start comment */
+.add-comment h3{
+    margin-top:5px;
+}
+.add-comment textarea{
+    width:500px;
+    height:100px;
+    margin-bottom: 15px;
+    font-size :18px;
+}
+.comment-box img{
+    width:100px;
+}
+.comment-box h4{
+    margin-left:30px;
+}
+.comment-box p,.profile-ads p{
+    background-color: #E2E2E2;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+.comment-box p:before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 15px;
+    border-color: transparent #E2E2E2 transparent transparent;
+    top: 10px;
+    left: -30px;
+
+}
+.comment-box .custom-hr:last-of-type{
+    display: none
+}
+/* end comment*/
+
+
+
